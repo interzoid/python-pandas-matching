@@ -25,6 +25,14 @@ There are a few Python libraries in this code example. If not already installed 
                 
 We could just sort the data frame by generated similarity key to get the matching organization names to line up next to each other. However, to make the results more readable and resembling something more like a report, we will add a space between the records of each matching set of similarity keys. Additionally, we will not show the entries where an organization or company name has no other data value that shares the same similarity key. This will ensure that we will only display rows that have matches, enabling us to clearly see the data redundancy that exists in our dataset.
 
+Test data frame (created within the code):
+
+```
+data = {
+    'org': ['ibm inc', 'Microsoft Corp.', 'go0gle llc','IBM','Google','Microsot', 'Amazon', 'microsfttt']
+}
+```
+
 Example output:
 
 ```
